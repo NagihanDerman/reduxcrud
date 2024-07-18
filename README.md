@@ -42,4 +42,4 @@
 
 ## GIF
 
-<img src="" />
+<img src="./public/reduxcrud.gif" />
