@@ -42,7 +42,7 @@ const todoReducer = (state = initialState, action) => {
 
     case ActionTypes.UPDATE:
       // dizideki id'si ve güncel değerleri bilenen elemanı güncelleme
-      // map ile yeni bir dizi oluşturduk ve mevcut dizideki elemaların arasından id 'si güncellenicek olan elemanın id'sine eşit olan elemanın yerine güncel değerine yeni diziye eklerken id si eşit olamayan elemanların mevuct değerlerini yeni diziye ekledik
+
       const updated = state.todos.map((item) =>
         item.id === action.payload.id ? action.payload : item
       );

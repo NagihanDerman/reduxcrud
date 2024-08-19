@@ -2,7 +2,7 @@ import { createStore, combineReducers } from "redux";
 import userReducer from "./reducers/userReducer";
 import todoReducer from "./reducers/todoReducer";
 
-//birden fazla reducer varsa birlestiririz
+//birden fazla reducer varsa birlestirir
 
 const rootReducer = combineReducers({
   todoReducer,

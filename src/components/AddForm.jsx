@@ -5,10 +5,9 @@ import { toast } from "react-toastify";
 
 const AddForm = () => {
   //dispatch metodunun kurulumu
-  // useDispatch hookunu çağırırız o da geriye bu bileşende dispatch yapabilememezi sağlaycak olan methodu döndürür
+
   const dispatch = useDispatch();
 
-  //form gonderilince sayfa yenilemesini durdur
   const handleSubmit = (e) => {
     e.preventDefault();
 

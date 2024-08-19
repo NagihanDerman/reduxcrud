@@ -11,7 +11,7 @@ const Card = ({ todo }) => {
   //dispatch kurulumu
   const dispatch = useDispatch();
 
-  //silme butinuna tiklaninca calisacak, reducer a haber verir
+  //silme butonuna tiklaninca calisacak, reducer a haber verir
   const handleDelete = () => {
     // onaylamazsa fonksiyonu durdur
     if (!confirm("Silmek istediğinizden emin misniz?")) return;
@@ -19,7 +19,7 @@ const Card = ({ todo }) => {
   };
   // tamamla butonun tıklanınca is_done değerini terine çevir
   const handleStatus = () => {
-    // 1) is_done değeri mevcut is_done değerinin teri olan yeni nesne oluştur
+    // 1) is_done değeri mevcut is_done değerinin tersi olan yeni nesne oluştur
     const updated = { ...todo, is_done: !todo.is_done };
 
     // 2) reducer'a bir todo'nun güncelleniceğini haber ver

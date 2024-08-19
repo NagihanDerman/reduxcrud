@@ -1,6 +1,4 @@
-// Projede kullanılan aksiyon tipleri bileşen içerisnde string şeklinde tanımlandığında dikkat dağınıklığı sonucu oluşabilcek ve tespit etmesi zaman alan hataların önüne geçmek için tipleri bir nesne içerisnde tanımlaycağız
-
-// Nesne şeklinde tanımladığımız için artık vscode'un oto. tamamlama özelliği sayesinde yazım hatalarının büyük oranda önüne geçicez
+// Projede kullanılan aksiyon tiplerini hatayi azaltmak icin bilesen iicnde tanimladik
 
 const ActionTypes = {
   ADD: "ADD",

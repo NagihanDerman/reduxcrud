@@ -1,8 +1,5 @@
 import ActionTypes from "./../reducers/actionType";
 
-// Action tanımları bileşen içerisnde çok fazla kod tekrarına ve kod kalabılıına sebep olduğundan kaynaklı olarak aksiyonları ayrı bir bileşende tanımlamaya karar verdik. aksiyonlar sonuç oalrak birer  nesne ama payload değerleri belli olmaıdığı için parametre alabıldğinden kaynaklı olarak bir fonskyionu yazmayı tercih ettik bu gonksiyon aldığı payloada göre bir aksiyon oluşturup return eder
-//payload tanimli olmadigi icin parametre alabildigi icin fonk olrak yazdik
-
 export const addTodo = (payload) => {
   return { type: ActionTypes.ADD, payload };
 };
